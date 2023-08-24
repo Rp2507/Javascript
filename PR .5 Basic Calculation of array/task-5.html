@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-5</title>
+</head>
+<body>
+
+     <!-- ========== pop example ============ -->
+
+
+    <script>
+
+        
+        // 1.concat example----------------
+        let commerce = ["BCA, B.COM, BBA"];
+        let science = ["BSC, BSC.IT, MBBS"];
+        let arts = ["BA"];
+
+        var result = commerce.concat(science,arts);
+        document.write(result+"<br>");
+        document.write("<br>");
+
+
+        // 2.sort example-----------------------
+        // const courses = ["Web Designing" , "Web Develpoment" , "Full-Stack Develpment"];
+        // user.sort();
+        // document.write(courses+"<br>");
+        // document.write("<br>");
+    
+        const courses = ["Web Designing" , "Web Develpoment" , "Full-Stack Develpment"];
+        courses.sort(); 
+        document.write(courses+"<br>");
+        document.write("<br>");
+
+
+        // 3.reverse example-----------------------
+        courses.reverse(); 
+        document.write(courses+"<br>");
+        document.write("<br>");
+    
+        // 4.findIndex example----------------------
+        let number = [2,4,3,43,76,12,9,7,4,3,8,6,4];
+        var win = number.findIndex(x => x>9);
+        document.write(win);
+
+    </script>
+    
+</body>
+</html>
