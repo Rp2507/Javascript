@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Set Data In Local storage
+        let data = {
+            name: "Riya",
+            age: "19",
+            phone: 6958425999,
+        };
+        let qulification = {
+           collage_name: "red and white",
+           degree: "BCA"
+        };
+  
+
+        // Set Data In Localstorage
+        localStorage.setItem("user", JSON.stringify(data));
+        localStorage.setItem("Education", JSON.stringify(qulification));
+ 
+        let userData = localStorage.getItem("qulification");
+
+        console.log("🚀 ~ file: index.html:21 ~ userData:", userData);
+
+    </script>
+</body>
+
+</html>
